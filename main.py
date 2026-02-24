@@ -2,7 +2,7 @@ from Student import Student
 from Employee import Employee
 
 student = Student("gabi", 27, "Engneering", 1 ,85)
-print("This is from programmer 1")
+print("This is from programmer 1, hi how are you")
 # student.foo()
 
 print("This is from programmer 2")
@@ -10,6 +10,7 @@ employee = Employee("John", 40, "Software Engineer", 45000)
 people = [student, employee]
 for person in people:
     person.printMyself()
+
 
 
 
